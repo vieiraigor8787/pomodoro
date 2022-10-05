@@ -1,4 +1,5 @@
-import { CyclesState, ActionTypes } from "../Types";
+import { CyclesState } from "../../Types";
+import { ActionTypes } from "./actions";
 
 export function cyclesReducer(state: CyclesState, action: any) {
   switch (action.type) {
